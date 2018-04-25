@@ -1,7 +1,7 @@
 # Circular Migration Plot
 Creating interactive circular migration plots for the web using D3,
 like http://www.global-migration.info/ and http://www.german-migration.info/
-and now https://arash2060.github.io/State-County-Migration/ in (see ./docs/).
+and now https://arash2060.github.io/State-County-migration/ in (see ./docs/).
 
 # Extension:
 Data cleanup, aggregation of small counties and states, and net migration patterns were done in Python. See the ./bin programs to be used instead of the below.
