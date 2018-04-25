@@ -4,9 +4,12 @@ like http://www.global-migration.info/ and http://www.german-migration.info/
 and now https://arash2060.github.io/State-County-Migration/ in (see ./docs/).
 
 # Extension:
-Data cleanup, aggregation of small counties and states, and net migration patterns were done in Python. See the ./bin
+Data cleanup, aggregation of small counties and states, and net migration patterns were done in Python. See the ./bin programs to be used instead of the below.
 
-# Guide for the original data cleanup.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+
+# Guide for original the original null2 data cleanup.
 
 ## Installation
 Install globally with npm:
