@@ -77,7 +77,7 @@ module.exports = function(data, config) {
   config.mylayout = config.mylayout || {};
   config.mylayout.sortSubgroups = config.mylayout.sortSubgroups || d3.descending;
   config.mylayout.sortChords = config.mylayout.sortChords || d3.descending;
-  config.mylayout.threshold = config.mylayout.threshold || 500; // controls how thin the smallest chord is.
+  config.mylayout.threshold = config.mylayout.threshold || 1000; // controls how thin the smallest chord is.
   config.mylayout.labelThreshold = config.mylayout.labelThreshold || 10000;
 
   config.maxRegionsOpen = config.maxRegionsOpen || 2;
@@ -1209,7 +1209,7 @@ module.exports = function() {
 var d3 = _dereq_('d3');
 
 module.exports = function(diagram, config) {
-  var years = Object.keys(diagram.data.matrix).map(function(y) { return y; });  //parseInt(y)
+  var years = Object.keys(diagram.data.matrix).map(function(y) { return parseInt(y); });  
 
   config = config || {};
   config.element = config.element || 'body';

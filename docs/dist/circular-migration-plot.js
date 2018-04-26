@@ -54,8 +54,8 @@ module.exports = function(data, config) {
   config.now = config.now || Object.keys(data.matrix)[0];
 
   // geometry
-  config.width = config.width || 1100;
-  config.height = config.height || 1100;
+  config.width = config.width || 1000;
+  config.height = config.height || 1000;
   config.margin = config.margin || 125;
   config.outerRadius = config.outerRadius || (Math.min(config.width, config.height) / 2 - config.margin);
   config.arcWidth = config.arcWidth || 24;
